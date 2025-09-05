@@ -1,0 +1,16 @@
+{
+  "name": "personnel-management",
+  "version": "1.0.0",
+  "description": "Fullstack app for managing personnel and work hours",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "test": "node --test backend/server.test.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "supertest": "^6.3.3"
+  }
+}
